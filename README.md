@@ -3,8 +3,6 @@
 ## Introduction
 MediVision is an innovative tool that combines Large Language Models (LLMs) with vision capabilities for zero-shot medical image classification. Powered by CLIP (Contrastive Language-Image Pre-training) from OpenAI, it analyzes JPEG, PNG, and DICOM images to detect conditions like pneumonia, tumors, fractures, or normal states, providing textual descriptions. Built with PyTorch and Gradio, it supports GPU acceleration via CUDA and offers an intuitive web interface.
 
-This project showcases my understanding of LLMs, their pre-training paradigms, and their synergy with vision models, applied to a practical medical imaging use case.
-
 ## Features
 - **Zero-Shot Learning**: Leverages CLIP’s ability to generalize across unseen tasks using natural language prompts.
 - **Supported Formats**: Processes JPEG, PNG, and DICOM medical images.
